@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60DFDD9017C74A210047F421 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDD8F17C74A210047F421 /* UIKit.framework */; };
+		60DFDD9217C74A210047F421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDD9117C74A210047F421 /* Foundation.framework */; };
+		60DFDD9417C74A210047F421 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDD9317C74A210047F421 /* CoreGraphics.framework */; };
+		60DFDD9A17C74A210047F421 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDD9817C74A210047F421 /* InfoPlist.strings */; };
+		60DFDD9C17C74A210047F421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDD9B17C74A210047F421 /* main.m */; };
+		60DFDDA017C74A210047F421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDD9F17C74A210047F421 /* AppDelegate.m */; };
+		60DFDDA217C74A210047F421 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDA117C74A210047F421 /* Default.png */; };
+		60DFDDA417C74A210047F421 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDA317C74A210047F421 /* Default@2x.png */; };
+		60DFDDA617C74A210047F421 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDA517C74A210047F421 /* Default-568h@2x.png */; };
+		60DFDDA917C74A210047F421 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDA717C74A210047F421 /* MainStoryboard_iPhone.storyboard */; };
+		60DFDDAC17C74A210047F421 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDAA17C74A210047F421 /* MainStoryboard_iPad.storyboard */; };
+		60DFDDAF17C74A210047F421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDDAE17C74A210047F421 /* ViewController.m */; };
+		60DFDDB717C74A210047F421 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDDB617C74A210047F421 /* SenTestingKit.framework */; };
+		60DFDDB817C74A210047F421 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDD8F17C74A210047F421 /* UIKit.framework */; };
+		60DFDDB917C74A210047F421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DFDD9117C74A210047F421 /* Foundation.framework */; };
+		60DFDDC117C74A210047F421 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DFDDBF17C74A210047F421 /* InfoPlist.strings */; };
+		60DFDDC417C74A210047F421 /* BackgroundTextureSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDDC317C74A210047F421 /* BackgroundTextureSampleTests.m */; };
+		60DFDDD117C74B690047F421 /* DCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDDD017C74B690047F421 /* DCLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60DFDDBA17C74A210047F421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60DFDD8417C74A210047F421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60DFDD8B17C74A210047F421;
+			remoteInfo = BackgroundTextureSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60DFDD8C17C74A210047F421 /* BackgroundTextureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTextureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DFDD8F17C74A210047F421 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60DFDD9117C74A210047F421 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60DFDD9317C74A210047F421 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60DFDD9717C74A210047F421 /* BackgroundTextureSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTextureSample-Info.plist"; sourceTree = "<group>"; };
+		60DFDD9917C74A210047F421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60DFDD9B17C74A210047F421 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60DFDD9D17C74A210047F421 /* BackgroundTextureSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTextureSample-Prefix.pch"; sourceTree = "<group>"; };
+		60DFDD9E17C74A210047F421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60DFDD9F17C74A210047F421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60DFDDA117C74A210047F421 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60DFDDA317C74A210047F421 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60DFDDA517C74A210047F421 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60DFDDA817C74A210047F421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		60DFDDAB17C74A210047F421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		60DFDDAD17C74A210047F421 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60DFDDAE17C74A210047F421 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60DFDDB517C74A210047F421 /* BackgroundTextureSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundTextureSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DFDDB617C74A210047F421 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		60DFDDBE17C74A210047F421 /* BackgroundTextureSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTextureSampleTests-Info.plist"; sourceTree = "<group>"; };
+		60DFDDC017C74A210047F421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60DFDDC217C74A210047F421 /* BackgroundTextureSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundTextureSampleTests.h; sourceTree = "<group>"; };
+		60DFDDC317C74A210047F421 /* BackgroundTextureSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTextureSampleTests.m; sourceTree = "<group>"; };
+		60DFDDCF17C74B690047F421 /* DCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLabel.h; sourceTree = "<group>"; };
+		60DFDDD017C74B690047F421 /* DCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60DFDD8917C74A210047F421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDD9017C74A210047F421 /* UIKit.framework in Frameworks */,
+				60DFDD9217C74A210047F421 /* Foundation.framework in Frameworks */,
+				60DFDD9417C74A210047F421 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DFDDB117C74A210047F421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDDB717C74A210047F421 /* SenTestingKit.framework in Frameworks */,
+				60DFDDB817C74A210047F421 /* UIKit.framework in Frameworks */,
+				60DFDDB917C74A210047F421 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DFDD8317C74A210047F421 = {
+			isa = PBXGroup;
+			children = (
+				60DFDD9517C74A210047F421 /* BackgroundTextureSample */,
+				60DFDDBC17C74A210047F421 /* BackgroundTextureSampleTests */,
+				60DFDD8E17C74A210047F421 /* Frameworks */,
+				60DFDD8D17C74A210047F421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60DFDD8D17C74A210047F421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDD8C17C74A210047F421 /* BackgroundTextureSample.app */,
+				60DFDDB517C74A210047F421 /* BackgroundTextureSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60DFDD8E17C74A210047F421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDD8F17C74A210047F421 /* UIKit.framework */,
+				60DFDD9117C74A210047F421 /* Foundation.framework */,
+				60DFDD9317C74A210047F421 /* CoreGraphics.framework */,
+				60DFDDB617C74A210047F421 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60DFDD9517C74A210047F421 /* BackgroundTextureSample */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDDCD17C74B690047F421 /* Classes */,
+				60DFDD9E17C74A210047F421 /* AppDelegate.h */,
+				60DFDD9F17C74A210047F421 /* AppDelegate.m */,
+				60DFDDA717C74A210047F421 /* MainStoryboard_iPhone.storyboard */,
+				60DFDDAA17C74A210047F421 /* MainStoryboard_iPad.storyboard */,
+				60DFDDAD17C74A210047F421 /* ViewController.h */,
+				60DFDDAE17C74A210047F421 /* ViewController.m */,
+				60DFDD9617C74A210047F421 /* Supporting Files */,
+			);
+			path = BackgroundTextureSample;
+			sourceTree = "<group>";
+		};
+		60DFDD9617C74A210047F421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDD9717C74A210047F421 /* BackgroundTextureSample-Info.plist */,
+				60DFDD9817C74A210047F421 /* InfoPlist.strings */,
+				60DFDD9B17C74A210047F421 /* main.m */,
+				60DFDD9D17C74A210047F421 /* BackgroundTextureSample-Prefix.pch */,
+				60DFDDA117C74A210047F421 /* Default.png */,
+				60DFDDA317C74A210047F421 /* Default@2x.png */,
+				60DFDDA517C74A210047F421 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60DFDDBC17C74A210047F421 /* BackgroundTextureSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDDC217C74A210047F421 /* BackgroundTextureSampleTests.h */,
+				60DFDDC317C74A210047F421 /* BackgroundTextureSampleTests.m */,
+				60DFDDBD17C74A210047F421 /* Supporting Files */,
+			);
+			path = BackgroundTextureSampleTests;
+			sourceTree = "<group>";
+		};
+		60DFDDBD17C74A210047F421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDDBE17C74A210047F421 /* BackgroundTextureSampleTests-Info.plist */,
+				60DFDDBF17C74A210047F421 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60DFDDCD17C74B690047F421 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDDCE17C74B690047F421 /* DCLibrary */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60DFDDCE17C74B690047F421 /* DCLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDDCF17C74B690047F421 /* DCLabel.h */,
+				60DFDDD017C74B690047F421 /* DCLabel.m */,
+			);
+			path = DCLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60DFDD8B17C74A210047F421 /* BackgroundTextureSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DFDDC717C74A210047F421 /* Build configuration list for PBXNativeTarget "BackgroundTextureSample" */;
+			buildPhases = (
+				60DFDD8817C74A210047F421 /* Sources */,
+				60DFDD8917C74A210047F421 /* Frameworks */,
+				60DFDD8A17C74A210047F421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundTextureSample;
+			productName = BackgroundTextureSample;
+			productReference = 60DFDD8C17C74A210047F421 /* BackgroundTextureSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60DFDDB417C74A210047F421 /* BackgroundTextureSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DFDDCA17C74A210047F421 /* Build configuration list for PBXNativeTarget "BackgroundTextureSampleTests" */;
+			buildPhases = (
+				60DFDDB017C74A210047F421 /* Sources */,
+				60DFDDB117C74A210047F421 /* Frameworks */,
+				60DFDDB217C74A210047F421 /* Resources */,
+				60DFDDB317C74A210047F421 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60DFDDBB17C74A210047F421 /* PBXTargetDependency */,
+			);
+			name = BackgroundTextureSampleTests;
+			productName = BackgroundTextureSampleTests;
+			productReference = 60DFDDB517C74A210047F421 /* BackgroundTextureSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60DFDD8417C74A210047F421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Masaki Hirokawa";
+			};
+			buildConfigurationList = 60DFDD8717C74A210047F421 /* Build configuration list for PBXProject "BackgroundTextureSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60DFDD8317C74A210047F421;
+			productRefGroup = 60DFDD8D17C74A210047F421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60DFDD8B17C74A210047F421 /* BackgroundTextureSample */,
+				60DFDDB417C74A210047F421 /* BackgroundTextureSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60DFDD8A17C74A210047F421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDD9A17C74A210047F421 /* InfoPlist.strings in Resources */,
+				60DFDDA217C74A210047F421 /* Default.png in Resources */,
+				60DFDDA417C74A210047F421 /* Default@2x.png in Resources */,
+				60DFDDA617C74A210047F421 /* Default-568h@2x.png in Resources */,
+				60DFDDA917C74A210047F421 /* MainStoryboard_iPhone.storyboard in Resources */,
+				60DFDDAC17C74A210047F421 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DFDDB217C74A210047F421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDDC117C74A210047F421 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60DFDDB317C74A210047F421 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DFDD8817C74A210047F421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDD9C17C74A210047F421 /* main.m in Sources */,
+				60DFDDA017C74A210047F421 /* AppDelegate.m in Sources */,
+				60DFDDAF17C74A210047F421 /* ViewController.m in Sources */,
+				60DFDDD117C74B690047F421 /* DCLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DFDDB017C74A210047F421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFDDC417C74A210047F421 /* BackgroundTextureSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60DFDDBB17C74A210047F421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60DFDD8B17C74A210047F421 /* BackgroundTextureSample */;
+			targetProxy = 60DFDDBA17C74A210047F421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60DFDD9817C74A210047F421 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DFDD9917C74A210047F421 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60DFDDA717C74A210047F421 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DFDDA817C74A210047F421 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		60DFDDAA17C74A210047F421 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DFDDAB17C74A210047F421 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		60DFDDBF17C74A210047F421 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DFDDC017C74A210047F421 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60DFDDC517C74A210047F421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60DFDDC617C74A210047F421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DFDDC817C74A210047F421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureSample/BackgroundTextureSample-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTextureSample/BackgroundTextureSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60DFDDC917C74A210047F421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureSample/BackgroundTextureSample-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTextureSample/BackgroundTextureSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60DFDDCB17C74A210047F421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTextureSample.app/BackgroundTextureSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureSample/BackgroundTextureSample-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTextureSampleTests/BackgroundTextureSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		60DFDDCC17C74A210047F421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTextureSample.app/BackgroundTextureSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureSample/BackgroundTextureSample-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTextureSampleTests/BackgroundTextureSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DFDD8717C74A210047F421 /* Build configuration list for PBXProject "BackgroundTextureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DFDDC517C74A210047F421 /* Debug */,
+				60DFDDC617C74A210047F421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60DFDDC717C74A210047F421 /* Build configuration list for PBXNativeTarget "BackgroundTextureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DFDDC817C74A210047F421 /* Debug */,
+				60DFDDC917C74A210047F421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60DFDDCA17C74A210047F421 /* Build configuration list for PBXNativeTarget "BackgroundTextureSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DFDDCB17C74A210047F421 /* Debug */,
+				60DFDDCC17C74A210047F421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60DFDD8417C74A210047F421 /* Project object */;
+}
